@@ -1,0 +1,2 @@
+| What I broke | Error message I saw | How I fixed it | README change needed? |
+| Delete .venv | bash: \Users\admin\OneDrive\Tài liệu\lab01-LinhNguyen2110\.venv/Scripts/pytest: No such file or directory | Deactivated the old session (`deactivate`), re-created `.venv` (`python -m venv .venv`), activated (`source .venv/Scripts/activate`), installed dependencies (`pip install -r requirements.txt`), installed editable package (`pip install -e .`) | No |
